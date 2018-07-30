@@ -1,0 +1,31 @@
+
+列表：
+关键字del： 删除列表，元组等
+
+关于列表的方法：
+count(): 计算它参数在列表中出现的次数
+index(): 返回它参数在列表中的位置
+reverse(): 将整个列表进行翻转
+sort(): 对列表进行排序
+
+
+字符串:
+常用的内置方法：
+casefold(): 将整个字符串改为小写
+find(sub)： 检测字符串里是否包含参数，如果有返回索引，否则-1
+join(sub)：以字符串为分隔符插入到sub所有字符之间
+replace(old, new[, count]): 把字符串中的old子字符串替换成new字符串，如果count指定，则替换不超过count次
+split(sep=None, maxsplit=-1): 不带参数默认是以空格为分隔符切片字符串，如果maxsplit参数有设定，则仅分隔maxsplit个子字符串
+......
+format()
+例子：
+"{0} love {1}.{2}".format("I", "FishC", "com")
+"{a} love {b}.{c}".format("I", "FishC", "com")
+>>> 'I love FishC.com'
+
+格式化操作符：
+例子：
+>>> '%d 转换为八进制是：%o' % (123,123)
+'123转换为八进制是：173'
+
+
